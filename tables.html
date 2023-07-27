@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | TABLES</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 10px 0 32px 0;
+            text-align: center;
+            color: rgb(3, 35, 95);
+        }
+
+        caption {
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: 800;
+            color: #333;
+        }
+
+        /* Task 2: Apply CSS styles to the table */
+        table {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        /* Task 4: Apply styles to header and footer rows */
+        thead tr {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tfoot tr {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        /* Task 2 (continued): Apply hover effect using pseudo-class */
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fictional Individuals</h1>
+    </header>
+
+    <section>
+        <table>
+            <caption>Information about fictional individuals</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Task 3: Populate the table with relevant content -->
+                <tr>
+                    <td>John Doe</td>
+                    <td>New York</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>London</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Mike Johnson</td>
+                    <td>San Francisco</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Lionel Messi</td>
+                    <td>Miami</td>
+                    <td>37</td>
+                </tr>
+                <tr>
+                    <td>Sergio Ramos</td>
+                    <td>Madrid</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>Mike taylor</td>
+                    <td>Barcelona</td>
+                    <td>45</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

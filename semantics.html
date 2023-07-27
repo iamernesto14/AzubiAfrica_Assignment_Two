@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRONTEND | HTML & CSS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+      }
+
+      h1 {
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      article {
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      ol {
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      .cities {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      #hobbies h2 {
+        text-transform: capitalize;
+        text-align: center;
+      }
+
+      iframe {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .others {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Webpage</h1>
+      <p>
+        I am a web developer with a passion for technology and design. Exploring
+        the latest web development trends and creating user-friendly interfaces
+        excites me. I also enjoy learning new programming languages and
+        contributing to open-source projects. When not coding, I love spending
+        time outdoors, traveling, and playing board games with friends.
+      </p>
+    </header>
+
+    <section>
+      <article>
+        <h2>Favorite Hobbies:</h2>
+        <ol>
+          <li>Playing video games</li>
+          <li>Hiking in nature</li>
+          <li>Photography</li>
+        </ol>
+
+        <p>
+          Check out my portfolio website:
+          <a href="https://iamernesto14.github.io/Portfolio/" target="_blank"
+            >Portfolio</a
+          >
+        </p>
+      </article>
+
+      <article id="hobbies">
+        <div>
+          <h2>Cities I would loved to go on vacation</h2>
+          <div class="cities">
+            <img
+              src="https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?auto=compress&cs=tinysrgb&w=300"
+              alt=""
+            />
+            <img
+              src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=300"
+              alt=""
+            />
+            <img
+              src="https://images.pexels.com/photos/258447/pexels-photo-258447.jpeg?auto=compress&cs=tinysrgb&w=300"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- <img src="https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=560" height="315px" alt="A beautiful nature scene" /> -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/421w1j87fEM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </article>
+
+      <article class="others">
+        <p>
+          Jump to the section about my favorite hobbies:
+          <a href="#hobbies">Hobbies Section</a>
+        </p>
+
+        <p><a href="tables.html">Next Page</a></p>
+      </article>
+    </section>
+  </body>
+</html>
